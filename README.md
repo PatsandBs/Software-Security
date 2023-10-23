@@ -17,12 +17,13 @@ Customers’ private information as well as their financial data is used and sto
 It was a little challenging reading through the vulnerability report. There was an excessive amount of information that I had never encountered before. Dependency checks seem to be a vital operation especially for applications that use lots of frameworks and external APIs.
 
 **•	How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?**
-
+Layers of security were increased by using various encryption algorithms. Security in all facets were checked and verified using these algorithms. This includes validating data within files and giving users authentication based on their credentials. 
 
 **•	How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?**
-
+Regular coding tests and checks verifies the functionality of the code. To keep our client’s software secure and protected, we will use the Maven Dependency-Check to perform a static test, known as a dependency check. This test checks a project’s dependencies and any additional related dependency for any known published vulnerability.
 
 **•	What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?**
-
+Secure coding practices is always the goal when it comes to coding and any application creation. The OWASP dependency check tool is a must-use resource for identifying and mitigation vulnerability dependencies. 
 
 **•	Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?**
+All of my assignments, but especially the Projects and the Modules 5 and 6 assignments.
